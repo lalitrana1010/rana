@@ -1,0 +1,29 @@
+function min(a,b)
+
+{
+
+if (a>b)
+
+{
+
+console.log("b is min");
+
+}
+
+else if (a<b)
+
+{
+
+console.log("a is min");
+
+}
+
+else 
+
+{
+
+console.log(" invalid");
+
+}
+
+}
