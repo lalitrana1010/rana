@@ -1,0 +1,89 @@
+A();
+
+
+function E() {
+console.log("E");
+
+F();
+}
+
+function A() {
+console.log("A");
+
+B();
+
+};
+
+function G() {
+console.log("G");
+
+H();
+ 
+function H() {
+console.log("H")
+;
+I();
+
+};
+
+}
+
+function D() {
+
+console.log("D");
+
+E();
+
+}
+
+
+function I() {
+
+console.log("I");
+
+J();
+}
+
+function B() {
+
+console.log("B");
+
+C();
+};
+
+function F() {
+
+console.log("F");
+
+G();
+};
+
+
+function J() {
+
+console.log("J");
+
+
+var rest = "KLMNOPQRSTUVWXYZ".split("");
+
+for (var i=0; i<rest.length; i++) {
+
+(function(i){
+
+console.log(rest[i]);
+
+
+
+})(i);
+
+}
+
+};
+
+function C()
+ {
+console.log("C");
+
+D();
+
+};
