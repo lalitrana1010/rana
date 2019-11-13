@@ -1,0 +1,38 @@
+function n1()
+
+{
+
+var a='hi';
+
+function n2()
+  {
+
+var b =' did';
+
+function n3()
+  {
+
+var c=' you';
+
+function n4()
+  {
+
+var d='need help';
+
+console.log(a+b+c+d);
+ 
+           }
+
+n4();
+        }
+
+n3();
+    }
+
+n2();
+}
+
+n1();
+
+
+output= hi did youneed help
